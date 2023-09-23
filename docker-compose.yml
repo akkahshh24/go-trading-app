@@ -3,7 +3,7 @@ services:
   zookeeper:
     env_file:
     - ./.env
-    image: bitname/zookeeper
+    image: bitnami/zookeeper
     expose:
     - "2181"
     ports:
